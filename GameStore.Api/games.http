@@ -11,18 +11,16 @@ POST http://localhost:5045/games
 Content-Type: application/json
 
 {
-    "name": "Stardew Valley",
     "genre": "Simulation",
     "price": 14.99,
     "releaseDate": "2016-02-06"
 }
 
 ###
-PUT http://localhost:5045/games/5
+PUT http://localhost:5045/games/2
 Content-Type: application/json
 
 {
-    "name": "Cyberpunk 2077: Phantom Liberty",
     "genre": "RPG",
     "price": 39.99,
     "releaseDate": "2020-12-10"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj": {}
+    "C:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj": {
+    "C:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "c:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "C:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\Dave\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\Dave\\Desktop\\React\\01-starting-project\\webdev-BE-asp\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dave\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MinimalApis.Extensions": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
